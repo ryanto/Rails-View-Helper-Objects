@@ -5,11 +5,11 @@ require "rails-view-helper-objects/version"
 Gem::Specification.new do |s|
   s.name        = "rails-view-helper-objects"
   s.version     = Rails::View::Helper::Objects::VERSION
-  s.authors     = ["Ryan T"]
-  s.email       = ["ryan@firstvacationrental.com"]
+  s.authors     = ["Ryan"]
+  s.email       = ["ryanto"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Use objects in your views}
+  s.description = %q{Rails view helpers expressed as objects}
 
   s.rubyforge_project = "rails-view-helper-objects"
 
@@ -17,4 +17,7 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
+
+  s.add_development_dependency "rspec"
+  s.add_dependency "rails", '>=3.0.0'
 end
