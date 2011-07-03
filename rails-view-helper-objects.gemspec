@@ -4,7 +4,7 @@ require "rails-view-helper-objects/version"
 
 Gem::Specification.new do |s|
   s.name        = "rails-view-helper-objects"
-  s.version     = Rails::View::Helper::Objects::VERSION
+  s.version     = RailsViewHelperObjects::VERSION
   s.authors     = ["Ryan"]
   s.email       = ["ryanto"]
   s.homepage    = ""
