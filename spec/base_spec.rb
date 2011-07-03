@@ -14,11 +14,9 @@ module AViewHelper
     def this_will_break_things
       slfhsdslfhslkdfh
     end
-
   end
 
 end
-
 
 describe RailsViewHelperObjects::Base do
 
